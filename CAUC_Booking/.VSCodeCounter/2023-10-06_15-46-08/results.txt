@@ -1,0 +1,140 @@
+Date : 2023-10-06 15:46:08
+Directory : e:\cauc_museum\CAUC_Booking\src
+Total : 69 files,  5427 codes, 131 comments, 459 blanks, all 6017 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Vue        |         40 |      4,567 |         49 |        364 |      4,980 |
+| JavaScript |         23 |        591 |         48 |         62 |        701 |
+| JSON       |          2 |        180 |          8 |          6 |        194 |
+| SCSS       |          2 |         82 |         26 |         26 |        134 |
+| TypeScript |          1 |          5 |          0 |          1 |          6 |
+| Properties |          1 |          2 |          0 |          0 |          2 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                         | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                            |         69 |      5,427 |        131 |        459 |      6,017 |
+| . (Files)                                                                    |          9 |        296 |         34 |         39 |        369 |
+| components                                                                   |         25 |      1,912 |         42 |        216 |      2,170 |
+| components\block                                                             |          4 |        292 |          0 |         25 |        317 |
+| components\bottomBlock                                                       |          1 |         31 |          0 |          3 |         34 |
+| components\calendar                                                          |          1 |        160 |          0 |         10 |        170 |
+| components\checkbox                                                          |          2 |         87 |          0 |         11 |         98 |
+| components\drawer                                                            |          1 |         74 |          0 |          8 |         82 |
+| components\header                                                            |          2 |        218 |          0 |         19 |        237 |
+| components\input                                                             |          1 |         57 |          0 |          4 |         61 |
+| components\lazyImg                                                           |          1 |         81 |          0 |          5 |         86 |
+| components\linkButton                                                        |          1 |         53 |          0 |          5 |         58 |
+| components\loading                                                           |          2 |        296 |          1 |         64 |        361 |
+| components\messageBox                                                        |          1 |         81 |         41 |         11 |        133 |
+| components\picker                                                            |          1 |        104 |          0 |         13 |        117 |
+| components\smallBlockList                                                    |          1 |         60 |          0 |          6 |         66 |
+| components\star                                                              |          1 |         16 |          0 |          5 |         21 |
+| components\toast                                                             |          1 |          0 |          0 |          1 |          1 |
+| components\transiton                                                         |          2 |         76 |          0 |          7 |         83 |
+| components\upload                                                            |          2 |        226 |          0 |         19 |        245 |
+| layout                                                                       |          3 |        332 |          1 |         18 |        351 |
+| layout\commonLayout                                                          |          1 |         72 |          0 |          5 |         77 |
+| layout\indexLayout                                                           |          1 |        207 |          1 |         10 |        218 |
+| layout\simpleLayout                                                          |          1 |         53 |          0 |          3 |         56 |
+| pages                                                                        |         12 |      2,308 |          6 |        128 |      2,442 |
+| pages\guide                                                                  |          1 |         15 |          0 |          4 |         19 |
+| pages\index                                                                  |          2 |        188 |          0 |         17 |        205 |
+| pages\notice                                                                 |          1 |         17 |          0 |          3 |         20 |
+| pages\order                                                                  |          6 |      1,903 |          3 |         88 |      1,994 |
+| pages\test                                                                   |          1 |         42 |          0 |          6 |         48 |
+| pages\user                                                                   |          1 |        143 |          3 |         10 |        156 |
+| store                                                                        |          7 |        179 |         11 |         20 |        210 |
+| store (Files)                                                                |          1 |          3 |          0 |          1 |          4 |
+| store\modules                                                                |          6 |        176 |         11 |         19 |        206 |
+| store\modules\common                                                         |          2 |          9 |          0 |          3 |         12 |
+| store\modules\order                                                          |          2 |         49 |          2 |          7 |         58 |
+| store\modules\user                                                           |          2 |        118 |          9 |          9 |        136 |
+| utils                                                                        |         13 |        400 |         37 |         38 |        475 |
+| utils\api                                                                    |          3 |        156 |         19 |          9 |        184 |
+| utils\config                                                                 |          2 |          9 |          0 |          3 |         12 |
+| utils\enum                                                                   |          1 |          3 |          0 |          1 |          4 |
+| utils\fn                                                                     |          4 |        124 |         16 |         16 |        156 |
+| utils\http                                                                   |          3 |        108 |          2 |          9 |        119 |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                     | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| e:\cauc_museum\CAUC_Booking\src\.env                                         | Properties |          2 |          0 |          0 |          2 |
+| e:\cauc_museum\CAUC_Booking\src\App.vue                                      | Vue        |         16 |          0 |          2 |         18 |
+| e:\cauc_museum\CAUC_Booking\src\components\block\dateBlock.vue               | Vue        |         73 |          0 |          7 |         80 |
+| e:\cauc_museum\CAUC_Booking\src\components\block\orderBlock.vue              | Vue        |         73 |          0 |          5 |         78 |
+| e:\cauc_museum\CAUC_Booking\src\components\block\statusBlock.vue             | Vue        |         81 |          0 |          4 |         85 |
+| e:\cauc_museum\CAUC_Booking\src\components\block\timeBlock.vue               | Vue        |         65 |          0 |          9 |         74 |
+| e:\cauc_museum\CAUC_Booking\src\components\bottomBlock\bottomBlock.vue       | Vue        |         31 |          0 |          3 |         34 |
+| e:\cauc_museum\CAUC_Booking\src\components\calendar\calendar.vue             | Vue        |        160 |          0 |         10 |        170 |
+| e:\cauc_museum\CAUC_Booking\src\components\checkbox\checkGroup.vue           | Vue        |         79 |          0 |          4 |         83 |
+| e:\cauc_museum\CAUC_Booking\src\components\checkbox\customCheckBox.vue       | Vue        |          8 |          0 |          7 |         15 |
+| e:\cauc_museum\CAUC_Booking\src\components\drawer\drawer.vue                 | Vue        |         74 |          0 |          8 |         82 |
+| e:\cauc_museum\CAUC_Booking\src\components\header\header.vue                 | Vue        |        126 |          0 |         12 |        138 |
+| e:\cauc_museum\CAUC_Booking\src\components\header\staticHeader.vue           | Vue        |         92 |          0 |          7 |         99 |
+| e:\cauc_museum\CAUC_Booking\src\components\input\customInput.vue             | Vue        |         57 |          0 |          4 |         61 |
+| e:\cauc_museum\CAUC_Booking\src\components\lazyImg\lazyImg.vue               | Vue        |         81 |          0 |          5 |         86 |
+| e:\cauc_museum\CAUC_Booking\src\components\linkButton\linkButton.vue         | Vue        |         53 |          0 |          5 |         58 |
+| e:\cauc_museum\CAUC_Booking\src\components\loading\commonLoading.vue         | Vue        |        110 |          1 |         21 |        132 |
+| e:\cauc_museum\CAUC_Booking\src\components\loading\uploadLoading.vue         | Vue        |        186 |          0 |         43 |        229 |
+| e:\cauc_museum\CAUC_Booking\src\components\messageBox\messageBox.vue         | Vue        |         81 |         41 |         11 |        133 |
+| e:\cauc_museum\CAUC_Booking\src\components\picker\picker.vue                 | Vue        |        104 |          0 |         13 |        117 |
+| e:\cauc_museum\CAUC_Booking\src\components\smallBlockList\smallBlockList.vue | Vue        |         60 |          0 |          6 |         66 |
+| e:\cauc_museum\CAUC_Booking\src\components\star\star.vue                     | Vue        |         16 |          0 |          5 |         21 |
+| e:\cauc_museum\CAUC_Booking\src\components\toast\CustomToast.vue             | Vue        |          0 |          0 |          1 |          1 |
+| e:\cauc_museum\CAUC_Booking\src\components\transiton\config.js               | JavaScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\CAUC_Booking\src\components\transiton\fadeTransiton.vue       | Vue        |         75 |          0 |          7 |         82 |
+| e:\cauc_museum\CAUC_Booking\src\components\upload\uploadImg.vue              | Vue        |        111 |          0 |          9 |        120 |
+| e:\cauc_museum\CAUC_Booking\src\components\upload\uploadPdf.vue              | Vue        |        115 |          0 |         10 |        125 |
+| e:\cauc_museum\CAUC_Booking\src\env.js                                       | JavaScript |          0 |          0 |          2 |          2 |
+| e:\cauc_museum\CAUC_Booking\src\global.scss                                  | SCSS       |         45 |          0 |         11 |         56 |
+| e:\cauc_museum\CAUC_Booking\src\layout\commonLayout\commonLayout.vue         | Vue        |         72 |          0 |          5 |         77 |
+| e:\cauc_museum\CAUC_Booking\src\layout\indexLayout\indexLayout.vue           | Vue        |        207 |          1 |         10 |        218 |
+| e:\cauc_museum\CAUC_Booking\src\layout\simpleLayout\simpleLayout.vue         | Vue        |         53 |          0 |          3 |         56 |
+| e:\cauc_museum\CAUC_Booking\src\main.js                                      | JavaScript |         11 |          0 |          2 |         13 |
+| e:\cauc_museum\CAUC_Booking\src\manifest.json                                | JSON       |         64 |          8 |          1 |         73 |
+| e:\cauc_museum\CAUC_Booking\src\pages.json                                   | JSON       |        116 |          0 |          5 |        121 |
+| e:\cauc_museum\CAUC_Booking\src\pages\guide\guide.vue                        | Vue        |         15 |          0 |          4 |         19 |
+| e:\cauc_museum\CAUC_Booking\src\pages\index\index.vue                        | Vue        |        179 |          0 |         14 |        193 |
+| e:\cauc_museum\CAUC_Booking\src\pages\index\start.vue                        | Vue        |          9 |          0 |          3 |         12 |
+| e:\cauc_museum\CAUC_Booking\src\pages\notice\notice.vue                      | Vue        |         17 |          0 |          3 |         20 |
+| e:\cauc_museum\CAUC_Booking\src\pages\order\order.vue                        | Vue        |        137 |          0 |          6 |        143 |
+| e:\cauc_museum\CAUC_Booking\src\pages\order\order_applicant.vue              | Vue        |        462 |          1 |         28 |        491 |
+| e:\cauc_museum\CAUC_Booking\src\pages\order\order_console.vue                | Vue        |        302 |          0 |         12 |        314 |
+| e:\cauc_museum\CAUC_Booking\src\pages\order\order_date_time.vue              | Vue        |        525 |          2 |         16 |        543 |
+| e:\cauc_museum\CAUC_Booking\src\pages\order\order_detail.vue                 | Vue        |        229 |          0 |         10 |        239 |
+| e:\cauc_museum\CAUC_Booking\src\pages\order\order_status.vue                 | Vue        |        248 |          0 |         16 |        264 |
+| e:\cauc_museum\CAUC_Booking\src\pages\test\test.vue                          | Vue        |         42 |          0 |          6 |         48 |
+| e:\cauc_museum\CAUC_Booking\src\pages\user\user.vue                          | Vue        |        143 |          3 |         10 |        156 |
+| e:\cauc_museum\CAUC_Booking\src\shime-uni.d.ts                               | TypeScript |          5 |          0 |          1 |          6 |
+| e:\cauc_museum\CAUC_Booking\src\store\index.js                               | JavaScript |          3 |          0 |          1 |          4 |
+| e:\cauc_museum\CAUC_Booking\src\store\modules\common\common.js               | JavaScript |          8 |          0 |          2 |         10 |
+| e:\cauc_museum\CAUC_Booking\src\store\modules\common\index.js                | JavaScript |          1 |          0 |          1 |          2 |
+| e:\cauc_museum\CAUC_Booking\src\store\modules\order\index.js                 | JavaScript |          1 |          0 |          1 |          2 |
+| e:\cauc_museum\CAUC_Booking\src\store\modules\order\order.js                 | JavaScript |         48 |          2 |          6 |         56 |
+| e:\cauc_museum\CAUC_Booking\src\store\modules\user\index.js                  | JavaScript |          1 |          0 |          1 |          2 |
+| e:\cauc_museum\CAUC_Booking\src\store\modules\user\user.js                   | JavaScript |        117 |          9 |          8 |        134 |
+| e:\cauc_museum\CAUC_Booking\src\uni.scss                                     | SCSS       |         37 |         26 |         15 |         78 |
+| e:\cauc_museum\CAUC_Booking\src\utils\api\date.js                            | JavaScript |         57 |          1 |          4 |         62 |
+| e:\cauc_museum\CAUC_Booking\src\utils\api\index.js                           | JavaScript |          2 |          0 |          1 |          3 |
+| e:\cauc_museum\CAUC_Booking\src\utils\api\order.js                           | JavaScript |         97 |         18 |          4 |        119 |
+| e:\cauc_museum\CAUC_Booking\src\utils\config\constants.js                    | JavaScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\CAUC_Booking\src\utils\config\http.js                         | JavaScript |          8 |          0 |          3 |         11 |
+| e:\cauc_museum\CAUC_Booking\src\utils\enum\index.js                          | JavaScript |          3 |          0 |          1 |          4 |
+| e:\cauc_museum\CAUC_Booking\src\utils\fn\common.js                           | JavaScript |         62 |          7 |          5 |         74 |
+| e:\cauc_museum\CAUC_Booking\src\utils\fn\date.js                             | JavaScript |         51 |          8 |          9 |         68 |
+| e:\cauc_museum\CAUC_Booking\src\utils\fn\index.js                            | JavaScript |          3 |          0 |          1 |          4 |
+| e:\cauc_museum\CAUC_Booking\src\utils\fn\verify.js                           | JavaScript |          8 |          1 |          1 |         10 |
+| e:\cauc_museum\CAUC_Booking\src\utils\http\date.js                           | JavaScript |         57 |          1 |          4 |         62 |
+| e:\cauc_museum\CAUC_Booking\src\utils\http\index.js                          | JavaScript |          8 |          0 |          3 |         11 |
+| e:\cauc_museum\CAUC_Booking\src\utils\http\order.js                          | JavaScript |         43 |          1 |          2 |         46 |
+| Total                                                                        |            |      5,427 |        131 |        459 |      6,017 |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

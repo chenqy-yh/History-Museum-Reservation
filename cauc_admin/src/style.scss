@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat+Subrayada&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+  /* color */
+  --common-color: #409eff;
+  --primary-color: #409eff;
+  --error-color: #ff4d4f;
+  --bg-primary-color: #fefefe;
+  --bg-left-container-color: #409eff;
+  --common-icon-color: #a1a1a1;
+  --common-input-focus-color: #409eff;
+  --menu-bg-color: #001529;
+  --menu-brand-bg-color: #002140;
+  --menu-brand-color: #fefefe;
+  --menu-item-color: #aaa;
+  --menu-footer-bg-color: #002140;
+  --content-bg-color: #ffffff;
+  --content-bg-bt-color: #eee;
+
+  /* gap */
+  --common-gap: 10px;
+  --large-gap: 30px;
+  /* radius */
+  --common-radius: 4px;
+  /* transition */
+  --common-transition: all var(--transition-time);
+  /* h */
+  --menu-item-height: 6vh;
+  --menu-brand-height: 7vh;
+  /* width */
+  --menu-icon-size: 40px;
+  /* padding */
+  --common-padding: var(--common-gap);
+  --common-padding-2: 2vw;
+  /* border */
+  --common-border-color: #e7e7e7;
+  /* button */
+  --button-border-light-color: #dddddd;
+  --button-primary-bg-color: #409eff;
+  --button-primary-color: var(--bg-primary-color);
+  --button-warning-bg-color: #ff7300;
+  --button-warning-color: var(--bg-primary-color);
+  --button-radius: 5px;
+  /* input */
+  --input-border-focus-color: #7bcaff;
+  --input-border-color: #dddddd;
+
+  /* time */
+  --transition-time: 0.3s;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// to fix el-message弹框被el-dialog覆盖的问题。
+.el-message {
+  z-index: 99999999 !important;
+}
+
+input[type="password"]::-ms-reveal {
+  display: none;
+}
+
+/* 设置滚动条的宽度为5px */
+::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+
+/* 设置滚动条的颜色为红色 */
+::-webkit-scrollbar-thumb {
+  background-color: var(--common-color);
+}
+
+// 大号字体
+.big-font {
+  font-size: 32px;
+}
+
+.form-title {
+  width: max-content;
+  padding-right: var(--common-padding);
+  font-weight: 600;
+  color: #666;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+// ------------------------ C O M M O N -------------------------
+.common-button {
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: var(--common-transition);
+  background-color: var(--bg-primary-color);
+  border: 1.5px solid var(--button-primary-bg-color);
+  color: var(--button-primary-bg-color);
+
+  &.error {
+    border: 1px solid var(--error-color);
+    color: var(--error-color);
+    &:hover {
+      background-color: var(--error-color);
+      color: var(--bg-primary-color);
+      transition: var(--common-transition);
+    }
+  }
+  &.disabled {
+    opacity: 0.5;
+  }
+  &:hover {
+    background-color: var(--button-primary-bg-color);
+    color: var(--bg-primary-color);
+    transition: var(--common-transition);
+  }
+}
+
+.common-textarea {
+  appearance: none;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  height: 80px;
+  width: 100%;
+  resize: none;
+  inset: none;
+  border: 1.5px solid #e5e5e5;
+  border-radius: var(--common-radius);
+  padding: var(--common-padding);
+  font-size: 15px;
+  transition: var(--common-transition);
+  &:focus {
+    inset: none;
+    border: 1.5px solid var(--common-color);
+  }
+}
+
+.common-tag {
+  width: max-content;
+  // border: 1px solid red;
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding-block: 5px;
+  padding-inline: 10px;
+  border-radius: 5px;
+  border: 1.5px solid #eee;
+  // box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}

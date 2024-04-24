@@ -1,0 +1,56 @@
+$uni-common-bg-color: #f7f3e8;
+
+.title-ff {
+  font-family: Georgia, serif;
+}
+
+button::after {
+  border: none;
+}
+
+.common-shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.common-dark-bg-color {
+  background-color: #f7f3e8;
+}
+
+.common-light-bg-color {
+  background-color: #fffcf7;
+}
+
+.common-font-color {
+  color: #897652;
+}
+
+.common-border-color {
+  border-color: #a08a5f;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.h1 {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-block: 2vw;
+}
+
+.btn-primary {
+  border: 1px solid;
+  background-color: transparent;
+  width: 60%;
+  height: max-content;
+  font-size: 14px;
+  text-align: center;
+}
+
+.common-radius{
+    border-radius: 2vw;
+}
+
+.common-sm-radius{
+    border-radius: 1vw;
+}

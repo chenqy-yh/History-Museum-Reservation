@@ -1,0 +1,254 @@
+Date : 2023-11-16 00:23:23
+Directory : e:\cauc_museum\cauc_admin\src
+Total : 143 files,  9788 codes, 379 comments, 1109 blanks, all 11276 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Vue        |         66 |      8,162 |        120 |        790 |      9,072 |
+| TypeScript |         74 |      1,504 |        241 |        304 |      2,049 |
+| SCSS       |          1 |        120 |         18 |         15 |        153 |
+| XML        |          2 |          2 |          0 |          0 |          2 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                   |        143 |      9,788 |        379 |      1,109 |     11,276 |
+| . (Files)                                                                           |          4 |        163 |         20 |         27 |        210 |
+| assets                                                                              |          2 |          2 |          0 |          0 |          2 |
+| assets (Files)                                                                      |          1 |          1 |          0 |          0 |          1 |
+| assets\svg                                                                          |          1 |          1 |          0 |          0 |          1 |
+| assets\svg\login                                                                    |          1 |          1 |          0 |          0 |          1 |
+| components                                                                          |         28 |      2,976 |         23 |        293 |      3,292 |
+| components\box                                                                      |          3 |        176 |          0 |         20 |        196 |
+| components\brand                                                                    |          1 |         48 |          0 |          8 |         56 |
+| components\button                                                                   |          4 |        353 |          0 |         26 |        379 |
+| components\calender                                                                 |          1 |        154 |          0 |         10 |        164 |
+| components\checkbox                                                                 |          3 |        226 |          0 |         21 |        247 |
+| components\dialog                                                                   |          2 |        377 |          2 |         33 |        412 |
+| components\header                                                                   |          1 |        144 |          2 |         13 |        159 |
+| components\input                                                                    |          1 |        152 |          0 |         12 |        164 |
+| components\menu                                                                     |          2 |        248 |         12 |         35 |        295 |
+| components\msgBox                                                                   |          2 |        218 |          2 |         18 |        238 |
+| components\other                                                                    |          1 |          8 |          0 |          6 |         14 |
+| components\panel                                                                    |          2 |        131 |          0 |         23 |        154 |
+| components\panel\msg-panel                                                          |          2 |        131 |          0 |         23 |        154 |
+| components\picker                                                                   |          2 |        401 |          4 |         33 |        438 |
+| components\radio                                                                    |          1 |        125 |          0 |         11 |        136 |
+| components\select                                                                   |          1 |         76 |          1 |         14 |         91 |
+| components\switch                                                                   |          1 |        139 |          0 |         10 |        149 |
+| directive                                                                           |          1 |          3 |          0 |          4 |          7 |
+| layouts                                                                             |          1 |        103 |          0 |         17 |        120 |
+| layouts\common                                                                      |          1 |        103 |          0 |         17 |        120 |
+| router                                                                              |          4 |        222 |         10 |         28 |        260 |
+| router (Files)                                                                      |          1 |         14 |          0 |          3 |         17 |
+| router\modules                                                                      |          3 |        208 |         10 |         25 |        243 |
+| store                                                                               |         17 |        338 |         87 |         77 |        502 |
+| store (Files)                                                                       |          1 |          8 |          0 |          0 |          8 |
+| store\modules                                                                       |         16 |        330 |         87 |         77 |        494 |
+| store\modules\common                                                                |          2 |         19 |          1 |          6 |         26 |
+| store\modules\excel                                                                 |          2 |         34 |         11 |          6 |         51 |
+| store\modules\guide                                                                 |          2 |         29 |          9 |          9 |         47 |
+| store\modules\manager                                                               |          2 |         11 |          2 |          2 |         15 |
+| store\modules\notice                                                                |          2 |          9 |         17 |          1 |         27 |
+| store\modules\order                                                                 |          2 |        162 |         38 |         33 |        233 |
+| store\modules\order-calendar                                                        |          2 |         26 |          5 |          9 |         40 |
+| store\modules\user                                                                  |          2 |         40 |          4 |         11 |         55 |
+| typings                                                                             |         13 |        206 |         23 |         29 |        258 |
+| utils                                                                               |         35 |        680 |        118 |        151 |        949 |
+| utils\api                                                                           |         18 |        236 |         49 |         61 |        346 |
+| utils\api (Files)                                                                   |          1 |          8 |          0 |          0 |          8 |
+| utils\api\common                                                                    |          2 |          5 |          0 |          1 |          6 |
+| utils\api\excel                                                                     |          2 |         23 |          3 |          4 |         30 |
+| utils\api\guide                                                                     |          2 |         16 |          5 |          7 |         28 |
+| utils\api\notice                                                                    |          2 |          8 |         12 |          5 |         25 |
+| utils\api\order                                                                     |          3 |        123 |         22 |         28 |        173 |
+| utils\api\permission                                                                |          2 |          6 |          0 |          2 |          8 |
+| utils\api\record                                                                    |          2 |         11 |          0 |          1 |         12 |
+| utils\api\user                                                                      |          2 |         36 |          7 |         13 |         56 |
+| utils\config                                                                        |          2 |          9 |          1 |          2 |         12 |
+| utils\enum                                                                          |          5 |         83 |         20 |         16 |        119 |
+| utils\fn                                                                            |          5 |        189 |         38 |         36 |        263 |
+| utils\http                                                                          |          1 |        133 |         10 |         28 |        171 |
+| utils\pipe                                                                          |          1 |          3 |          0 |          3 |          6 |
+| utils\static                                                                        |          1 |          3 |          0 |          0 |          3 |
+| utils\store                                                                         |          2 |         24 |          0 |          5 |         29 |
+| views                                                                               |         38 |      5,095 |         98 |        483 |      5,676 |
+| views\dashboard                                                                     |          1 |        176 |          2 |         10 |        188 |
+| views\error                                                                         |          2 |        118 |          0 |          8 |        126 |
+| views\home                                                                          |          1 |          7 |          0 |          3 |         10 |
+| views\login                                                                         |          1 |        181 |          0 |         12 |        193 |
+| views\manager                                                                       |         13 |      2,088 |         66 |        170 |      2,324 |
+| views\manager\guide                                                                 |          6 |        886 |         29 |         79 |        994 |
+| views\manager\guide (Files)                                                         |          1 |        287 |         12 |         22 |        321 |
+| views\manager\guide\components                                                      |          5 |        599 |         17 |         57 |        673 |
+| views\manager\notice                                                                |          1 |        174 |          0 |         14 |        188 |
+| views\manager\user                                                                  |          6 |      1,028 |         37 |         77 |      1,142 |
+| views\manager\user (Files)                                                          |          1 |        275 |         26 |         13 |        314 |
+| views\manager\user\components                                                       |          5 |        753 |         11 |         64 |        828 |
+| views\order                                                                         |         13 |      2,039 |         24 |        215 |      2,278 |
+| views\order (Files)                                                                 |          5 |      1,172 |         20 |        108 |      1,300 |
+| views\order-calendar                                                                |          3 |        413 |          3 |         48 |        464 |
+| views\order-calendar (Files)                                                        |          1 |        248 |          3 |         27 |        278 |
+| views\order-calendar\components                                                     |          2 |        165 |          0 |         21 |        186 |
+| views\order\edit                                                                    |          2 |        164 |          0 |         18 |        182 |
+| views\order\excel                                                                   |          6 |        703 |          4 |         89 |        796 |
+| views\other                                                                         |          1 |         11 |          0 |          3 |         14 |
+| views\test                                                                          |          1 |         48 |          3 |          9 |         60 |
+| views\tourist                                                                       |          2 |         14 |          0 |          5 |         19 |
+| views\tourist (Files)                                                               |          1 |         14 |          0 |          4 |         18 |
+| views\tourist\components                                                            |          1 |          0 |          0 |          1 |          1 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                            | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| e:\cauc_museum\cauc_admin\src\App.vue                                               | Vue        |         20 |          0 |          4 |         24 |
+| e:\cauc_museum\cauc_admin\src\assets\svg\login\cover_0.svg                          | XML        |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\assets\vue.svg                                        | XML        |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\components\box\buttonBox.vue                          | Vue        |         38 |          0 |          5 |         43 |
+| e:\cauc_museum\cauc_admin\src\components\box\customLink.vue                         | Vue        |         64 |          0 |          5 |         69 |
+| e:\cauc_museum\cauc_admin\src\components\box\historyBox.vue                         | Vue        |         74 |          0 |         10 |         84 |
+| e:\cauc_museum\cauc_admin\src\components\brand\brand.vue                            | Vue        |         48 |          0 |          8 |         56 |
+| e:\cauc_museum\cauc_admin\src\components\button\commonButton.vue                    | Vue        |         25 |          0 |          4 |         29 |
+| e:\cauc_museum\cauc_admin\src\components\button\drawerButton.vue                    | Vue        |         98 |          0 |          3 |        101 |
+| e:\cauc_museum\cauc_admin\src\components\button\iconButton.vue                      | Vue        |        157 |          0 |         12 |        169 |
+| e:\cauc_museum\cauc_admin\src\components\button\popoverButton.vue                   | Vue        |         73 |          0 |          7 |         80 |
+| e:\cauc_museum\cauc_admin\src\components\calender\calendar.vue                      | Vue        |        154 |          0 |         10 |        164 |
+| e:\cauc_museum\cauc_admin\src\components\checkbox\commonCheckbox.vue                | Vue        |         63 |          0 |          5 |         68 |
+| e:\cauc_museum\cauc_admin\src\components\checkbox\mulCheckBox.vue                   | Vue        |         90 |          0 |          8 |         98 |
+| e:\cauc_museum\cauc_admin\src\components\checkbox\radioCheckBox.vue                 | Vue        |         73 |          0 |          8 |         81 |
+| e:\cauc_museum\cauc_admin\src\components\dialog\dialog.vue                          | Vue        |        260 |          2 |         24 |        286 |
+| e:\cauc_museum\cauc_admin\src\components\dialog\simpleDialog.vue                    | Vue        |        117 |          0 |          9 |        126 |
+| e:\cauc_museum\cauc_admin\src\components\header\header.vue                          | Vue        |        144 |          2 |         13 |        159 |
+| e:\cauc_museum\cauc_admin\src\components\input\iconInput.vue                        | Vue        |        152 |          0 |         12 |        164 |
+| e:\cauc_museum\cauc_admin\src\components\menu\leftMenu.vue                          | Vue        |        143 |         12 |         17 |        172 |
+| e:\cauc_museum\cauc_admin\src\components\menu\menuItem.vue                          | Vue        |        105 |          0 |         18 |        123 |
+| e:\cauc_museum\cauc_admin\src\components\msgBox\customMessageBox.vue                | Vue        |        187 |          1 |         13 |        201 |
+| e:\cauc_museum\cauc_admin\src\components\msgBox\index.ts                            | TypeScript |         31 |          1 |          5 |         37 |
+| e:\cauc_museum\cauc_admin\src\components\other\star.vue                             | Vue        |          8 |          0 |          6 |         14 |
+| e:\cauc_museum\cauc_admin\src\components\panel\msg-panel\index.ts                   | TypeScript |          1 |          0 |          2 |          3 |
+| e:\cauc_museum\cauc_admin\src\components\panel\msg-panel\msg-panel.vue              | Vue        |        130 |          0 |         21 |        151 |
+| e:\cauc_museum\cauc_admin\src\components\picker\customDatePicker.vue                | Vue        |        265 |          4 |         20 |        289 |
+| e:\cauc_museum\cauc_admin\src\components\picker\monthPicker.vue                     | Vue        |        136 |          0 |         13 |        149 |
+| e:\cauc_museum\cauc_admin\src\components\radio\c-radio.vue                          | Vue        |        125 |          0 |         11 |        136 |
+| e:\cauc_museum\cauc_admin\src\components\select\customSelect.vue                    | Vue        |         76 |          1 |         14 |         91 |
+| e:\cauc_museum\cauc_admin\src\components\switch\mulSwitch.vue                       | Vue        |        139 |          0 |         10 |        149 |
+| e:\cauc_museum\cauc_admin\src\directive\preChange.ts                                | TypeScript |          3 |          0 |          4 |          7 |
+| e:\cauc_museum\cauc_admin\src\layouts\common\commonLayout.vue                       | Vue        |        103 |          0 |         17 |        120 |
+| e:\cauc_museum\cauc_admin\src\main.ts                                               | TypeScript |         23 |          1 |          7 |         31 |
+| e:\cauc_museum\cauc_admin\src\router\index.ts                                       | TypeScript |         14 |          0 |          3 |         17 |
+| e:\cauc_museum\cauc_admin\src\router\modules\gurad.ts                               | TypeScript |         47 |          4 |          6 |         57 |
+| e:\cauc_museum\cauc_admin\src\router\modules\index.ts                               | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\router\modules\routes.ts                              | TypeScript |        160 |          6 |         19 |        185 |
+| e:\cauc_museum\cauc_admin\src\store\index.ts                                        | TypeScript |          8 |          0 |          0 |          8 |
+| e:\cauc_museum\cauc_admin\src\store\modules\common\home.ts                          | TypeScript |         18 |          1 |          6 |         25 |
+| e:\cauc_museum\cauc_admin\src\store\modules\common\index.ts                         | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\store\modules\excel\excel.ts                          | TypeScript |         33 |         11 |          6 |         50 |
+| e:\cauc_museum\cauc_admin\src\store\modules\excel\index.ts                          | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\store\modules\guide\guide.ts                          | TypeScript |         28 |          9 |          9 |         46 |
+| e:\cauc_museum\cauc_admin\src\store\modules\guide\index.ts                          | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\store\modules\manager\index.ts                        | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\store\modules\manager\user-manager.ts                 | TypeScript |         10 |          2 |          2 |         14 |
+| e:\cauc_museum\cauc_admin\src\store\modules\notice\index.ts                         | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\store\modules\notice\notice.ts                        | TypeScript |          8 |         17 |          1 |         26 |
+| e:\cauc_museum\cauc_admin\src\store\modules\order-calendar\index.ts                 | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\store\modules\order-calendar\order-calendar.ts        | TypeScript |         25 |          5 |          9 |         39 |
+| e:\cauc_museum\cauc_admin\src\store\modules\order\index.ts                          | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\store\modules\order\order.ts                          | TypeScript |        161 |         38 |         33 |        232 |
+| e:\cauc_museum\cauc_admin\src\store\modules\user\index.ts                           | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\store\modules\user\user.ts                            | TypeScript |         39 |          4 |         11 |         54 |
+| e:\cauc_museum\cauc_admin\src\style.scss                                            | SCSS       |        120 |         18 |         15 |        153 |
+| e:\cauc_museum\cauc_admin\src\typings\date.d.ts                                     | TypeScript |          4 |          0 |          0 |          4 |
+| e:\cauc_museum\cauc_admin\src\typings\guide.d.ts                                    | TypeScript |         11 |          0 |          0 |         11 |
+| e:\cauc_museum\cauc_admin\src\typings\http.d.ts                                     | TypeScript |         19 |          0 |          3 |         22 |
+| e:\cauc_museum\cauc_admin\src\typings\index.d.ts                                    | TypeScript |         20 |          0 |          7 |         27 |
+| e:\cauc_museum\cauc_admin\src\typings\menu.d.ts                                     | TypeScript |          7 |          0 |          0 |          7 |
+| e:\cauc_museum\cauc_admin\src\typings\msgBox.d.ts                                   | TypeScript |         23 |          0 |          6 |         29 |
+| e:\cauc_museum\cauc_admin\src\typings\order.d.ts                                    | TypeScript |         30 |         22 |          4 |         56 |
+| e:\cauc_museum\cauc_admin\src\typings\record.d.ts                                   | TypeScript |         18 |          0 |          1 |         19 |
+| e:\cauc_museum\cauc_admin\src\typings\router.d.ts                                   | TypeScript |         26 |          1 |          5 |         32 |
+| e:\cauc_museum\cauc_admin\src\typings\store.d.ts                                    | TypeScript |          4 |          0 |          0 |          4 |
+| e:\cauc_museum\cauc_admin\src\typings\switch.d.ts                                   | TypeScript |          6 |          0 |          0 |          6 |
+| e:\cauc_museum\cauc_admin\src\typings\user.d.ts                                     | TypeScript |         32 |          0 |          2 |         34 |
+| e:\cauc_museum\cauc_admin\src\typings\verify.d.ts                                   | TypeScript |          6 |          0 |          1 |          7 |
+| e:\cauc_museum\cauc_admin\src\utils\api\common\common.ts                            | TypeScript |          4 |          0 |          1 |          5 |
+| e:\cauc_museum\cauc_admin\src\utils\api\common\index.ts                             | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\utils\api\excel\excel.ts                              | TypeScript |         22 |          3 |          4 |         29 |
+| e:\cauc_museum\cauc_admin\src\utils\api\excel\index.ts                              | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\utils\api\guide\guide.ts                              | TypeScript |         15 |          5 |          7 |         27 |
+| e:\cauc_museum\cauc_admin\src\utils\api\guide\index.ts                              | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\utils\api\index.ts                                    | TypeScript |          8 |          0 |          0 |          8 |
+| e:\cauc_museum\cauc_admin\src\utils\api\notice\index.ts                             | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\utils\api\notice\notice.ts                            | TypeScript |          7 |         12 |          5 |         24 |
+| e:\cauc_museum\cauc_admin\src\utils\api\order\index.ts                              | TypeScript |          2 |          0 |          0 |          2 |
+| e:\cauc_museum\cauc_admin\src\utils\api\order\order-item.ts                         | TypeScript |         20 |          3 |          6 |         29 |
+| e:\cauc_museum\cauc_admin\src\utils\api\order\order.ts                              | TypeScript |        101 |         19 |         22 |        142 |
+| e:\cauc_museum\cauc_admin\src\utils\api\permission\index.ts                         | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\utils\api\permission\permission.ts                    | TypeScript |          5 |          0 |          2 |          7 |
+| e:\cauc_museum\cauc_admin\src\utils\api\record\index.ts                             | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\utils\api\record\record.ts                            | TypeScript |         10 |          0 |          1 |         11 |
+| e:\cauc_museum\cauc_admin\src\utils\api\user\index.ts                               | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\utils\api\user\user.ts                                | TypeScript |         35 |          7 |         13 |         55 |
+| e:\cauc_museum\cauc_admin\src\utils\config\code.config.ts                           | TypeScript |          7 |          0 |          0 |          7 |
+| e:\cauc_museum\cauc_admin\src\utils\config\index.ts                                 | TypeScript |          2 |          1 |          2 |          5 |
+| e:\cauc_museum\cauc_admin\src\utils\enum\notice.enum.ts                             | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin\src\utils\enum\order.enum.ts                              | TypeScript |         69 |         20 |         16 |        105 |
+| e:\cauc_museum\cauc_admin\src\utils\enum\size.enum.ts                               | TypeScript |          5 |          0 |          0 |          5 |
+| e:\cauc_museum\cauc_admin\src\utils\enum\theme.enum.ts                              | TypeScript |          4 |          0 |          0 |          4 |
+| e:\cauc_museum\cauc_admin\src\utils\enum\type.enum.ts                               | TypeScript |          4 |          0 |          0 |          4 |
+| e:\cauc_museum\cauc_admin\src\utils\fn\arr.ts                                       | TypeScript |          7 |          2 |          2 |         11 |
+| e:\cauc_museum\cauc_admin\src\utils\fn\index.ts                                     | TypeScript |         92 |         12 |         15 |        119 |
+| e:\cauc_museum\cauc_admin\src\utils\fn\order.ts                                     | TypeScript |          9 |          2 |          4 |         15 |
+| e:\cauc_museum\cauc_admin\src\utils\fn\valid.ts                                     | TypeScript |         46 |         11 |         11 |         68 |
+| e:\cauc_museum\cauc_admin\src\utils\fn\xlsx.ts                                      | TypeScript |         35 |         11 |          4 |         50 |
+| e:\cauc_museum\cauc_admin\src\utils\http\index.ts                                   | TypeScript |        133 |         10 |         28 |        171 |
+| e:\cauc_museum\cauc_admin\src\utils\pipe\index.ts                                   | TypeScript |          3 |          0 |          3 |          6 |
+| e:\cauc_museum\cauc_admin\src\utils\static\pub-use.ts                               | TypeScript |          3 |          0 |          0 |          3 |
+| e:\cauc_museum\cauc_admin\src\utils\store\index.ts                                  | TypeScript |         17 |          0 |          3 |         20 |
+| e:\cauc_museum\cauc_admin\src\utils\store\keys.ts                                   | TypeScript |          7 |          0 |          2 |          9 |
+| e:\cauc_museum\cauc_admin\src\views\dashboard\dashboard.vue                         | Vue        |        176 |          2 |         10 |        188 |
+| e:\cauc_museum\cauc_admin\src\views\error\404.vue                                   | Vue        |         59 |          0 |          4 |         63 |
+| e:\cauc_museum\cauc_admin\src\views\error\503.vue                                   | Vue        |         59 |          0 |          4 |         63 |
+| e:\cauc_museum\cauc_admin\src\views\home\home.vue                                   | Vue        |          7 |          0 |          3 |         10 |
+| e:\cauc_museum\cauc_admin\src\views\login\login.vue                                 | Vue        |        181 |          0 |         12 |        193 |
+| e:\cauc_museum\cauc_admin\src\views\manager\guide\components\add-guide.vue          | Vue        |        152 |         10 |         12 |        174 |
+| e:\cauc_museum\cauc_admin\src\views\manager\guide\components\del-guide.vue          | Vue        |        114 |          1 |         11 |        126 |
+| e:\cauc_museum\cauc_admin\src\views\manager\guide\components\guide-info.vue         | Vue        |         49 |          0 |         11 |         60 |
+| e:\cauc_museum\cauc_admin\src\views\manager\guide\components\guide-order-detail.vue | Vue        |        140 |          6 |         14 |        160 |
+| e:\cauc_museum\cauc_admin\src\views\manager\guide\components\update-guide.vue       | Vue        |        144 |          0 |          9 |        153 |
+| e:\cauc_museum\cauc_admin\src\views\manager\guide\guideManager.vue                  | Vue        |        287 |         12 |         22 |        321 |
+| e:\cauc_museum\cauc_admin\src\views\manager\notice\noticeManager.vue                | Vue        |        174 |          0 |         14 |        188 |
+| e:\cauc_museum\cauc_admin\src\views\manager\user\components\add-user-block.vue      | Vue        |        225 |          0 |         10 |        235 |
+| e:\cauc_museum\cauc_admin\src\views\manager\user\components\change-profile.vue      | Vue        |        216 |         11 |         16 |        243 |
+| e:\cauc_museum\cauc_admin\src\views\manager\user\components\change-pwd.vue          | Vue        |        149 |          0 |         17 |        166 |
+| e:\cauc_museum\cauc_admin\src\views\manager\user\components\del-user.vue            | Vue        |        107 |          0 |         10 |        117 |
+| e:\cauc_museum\cauc_admin\src\views\manager\user\components\update-user-block.vue   | Vue        |         56 |          0 |         11 |         67 |
+| e:\cauc_museum\cauc_admin\src\views\manager\user\userManager.vue                    | Vue        |        275 |         26 |         13 |        314 |
+| e:\cauc_museum\cauc_admin\src\views\order-calendar\components\order-item-detail.vue | Vue        |         55 |          0 |          6 |         61 |
+| e:\cauc_museum\cauc_admin\src\views\order-calendar\components\record-detail.vue     | Vue        |        110 |          0 |         15 |        125 |
+| e:\cauc_museum\cauc_admin\src\views\order-calendar\order-calendar.vue               | Vue        |        248 |          3 |         27 |        278 |
+| e:\cauc_museum\cauc_admin\src\views\order\choose-guide.vue                          | Vue        |        218 |          1 |         23 |        242 |
+| e:\cauc_museum\cauc_admin\src\views\order\choose-order-item.vue                     | Vue        |          8 |          0 |          3 |         11 |
+| e:\cauc_museum\cauc_admin\src\views\order\editOrder.vue                             | Vue        |        313 |         18 |         26 |        357 |
+| e:\cauc_museum\cauc_admin\src\views\order\edit\editInput.vue                        | Vue        |         83 |          0 |          7 |         90 |
+| e:\cauc_museum\cauc_admin\src\views\order\edit\editPicker.vue                       | Vue        |         81 |          0 |         11 |         92 |
+| e:\cauc_museum\cauc_admin\src\views\order\excel\choose-day.vue                      | Vue        |        176 |          1 |         21 |        198 |
+| e:\cauc_museum\cauc_admin\src\views\order\excel\choose-month.vue                    | Vue        |        128 |          0 |         19 |        147 |
+| e:\cauc_museum\cauc_admin\src\views\order\excel\choose-way.vue                      | Vue        |         78 |          0 |         11 |         89 |
+| e:\cauc_museum\cauc_admin\src\views\order\excel\choose-year.vue                     | Vue        |        164 |          3 |         18 |        185 |
+| e:\cauc_museum\cauc_admin\src\views\order\excel\excel.vue                           | Vue        |         66 |          0 |         11 |         77 |
+| e:\cauc_museum\cauc_admin\src\views\order\excel\out-excel.vue                       | Vue        |         91 |          0 |          9 |        100 |
+| e:\cauc_museum\cauc_admin\src\views\order\order.vue                                 | Vue        |        351 |          0 |         41 |        392 |
+| e:\cauc_museum\cauc_admin\src\views\order\orderTable.vue                            | Vue        |        282 |          1 |         15 |        298 |
+| e:\cauc_museum\cauc_admin\src\views\other\other.vue                                 | Vue        |         11 |          0 |          3 |         14 |
+| e:\cauc_museum\cauc_admin\src\views\test\test.vue                                   | Vue        |         48 |          3 |          9 |         60 |
+| e:\cauc_museum\cauc_admin\src\views\tourist\components\tourist-table.vue            | Vue        |          0 |          0 |          1 |          1 |
+| e:\cauc_museum\cauc_admin\src\views\tourist\tourist-manager.vue                     | Vue        |         14 |          0 |          4 |         18 |
+| e:\cauc_museum\cauc_admin\src\vite-env.d.ts                                         | TypeScript |          0 |          1 |          1 |          2 |
+| Total                                                                               |            |      9,788 |        379 |      1,109 |     11,276 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

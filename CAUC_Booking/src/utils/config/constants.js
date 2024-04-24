@@ -1,0 +1,1 @@
+export const RES_REQ_DURATION = 20 * 1000; // 20s

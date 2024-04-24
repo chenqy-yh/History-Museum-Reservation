@@ -1,0 +1,98 @@
+Date : 2023-09-18 11:20:33
+Directory : e:\WXAPP\CAUC_Booking\src
+Total : 41 files,  3358 codes, 202 comments, 257 blanks, all 3817 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Vue        |         30 |      3,076 |        165 |        220 |      3,461 |
+| JSON       |          2 |        161 |          8 |          6 |        175 |
+| JavaScript |          5 |         70 |          3 |         12 |         85 |
+| SCSS       |          2 |         44 |         26 |         18 |         88 |
+| TypeScript |          1 |          5 |          0 |          1 |          6 |
+| Properties |          1 |          2 |          0 |          0 |          2 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                   | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                      |         41 |      3,358 |        202 |        257 |      3,817 |
+| . (Files)                                                              |          9 |        237 |         34 |         31 |        302 |
+| components                                                             |         17 |      1,005 |        142 |        111 |      1,258 |
+| components\block                                                       |          3 |        183 |         82 |         17 |        282 |
+| components\bottomBlock                                                 |          1 |         31 |          0 |          3 |         34 |
+| components\calendar                                                    |          1 |        130 |          0 |         12 |        142 |
+| components\checkbox                                                    |          2 |         73 |         60 |         12 |        145 |
+| components\drawer                                                      |          1 |         68 |          0 |          8 |         76 |
+| components\header                                                      |          2 |        187 |          0 |         18 |        205 |
+| components\input                                                       |          1 |         52 |          0 |          4 |         56 |
+| components\linkButton                                                  |          1 |         53 |          0 |          5 |         58 |
+| components\messageBox                                                  |          1 |         17 |          0 |          3 |         20 |
+| components\picker                                                      |          1 |        105 |          0 |         15 |        120 |
+| components\smallBlockList                                              |          1 |         60 |          0 |          6 |         66 |
+| components\star                                                        |          1 |         16 |          0 |          5 |         21 |
+| components\upload                                                      |          1 |         30 |          0 |          3 |         33 |
+| layout                                                                 |          3 |        299 |          1 |         18 |        318 |
+| layout\commonLayout                                                    |          1 |         62 |          0 |          5 |         67 |
+| layout\indexLayout                                                     |          1 |        186 |          1 |          9 |        196 |
+| layout\simpleLayout                                                    |          1 |         51 |          0 |          4 |         55 |
+| pages                                                                  |          9 |      1,756 |         22 |         89 |      1,867 |
+| pages\guide                                                            |          1 |         15 |          0 |          3 |         18 |
+| pages\index                                                            |          2 |        205 |          0 |         13 |        218 |
+| pages\order                                                            |          4 |      1,387 |         21 |         62 |      1,470 |
+| pages\test                                                             |          1 |         57 |          0 |          7 |         64 |
+| pages\user                                                             |          1 |         92 |          1 |          4 |         97 |
+| utils                                                                  |          3 |         61 |          3 |          8 |         72 |
+| utils\fn                                                               |          1 |         44 |          2 |          5 |         51 |
+| utils\http                                                             |          2 |         17 |          1 |          3 |         21 |
++------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                               | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| e:\WXAPP\CAUC_Booking\src\.env                                         | Properties |          2 |          0 |          0 |          2 |
+| e:\WXAPP\CAUC_Booking\src\App.vue                                      | Vue        |         16 |          0 |          2 |         18 |
+| e:\WXAPP\CAUC_Booking\src\components\block\dateBlock.vue               | Vue        |         58 |         82 |          6 |        146 |
+| e:\WXAPP\CAUC_Booking\src\components\block\orderBlock.vue              | Vue        |         73 |          0 |          5 |         78 |
+| e:\WXAPP\CAUC_Booking\src\components\block\timeBlock.vue               | Vue        |         52 |          0 |          6 |         58 |
+| e:\WXAPP\CAUC_Booking\src\components\bottomBlock\bottomBlock.vue       | Vue        |         31 |          0 |          3 |         34 |
+| e:\WXAPP\CAUC_Booking\src\components\calendar\calendar.vue             | Vue        |        130 |          0 |         12 |        142 |
+| e:\WXAPP\CAUC_Booking\src\components\checkbox\checkGroup.vue           | Vue        |         65 |         60 |          5 |        130 |
+| e:\WXAPP\CAUC_Booking\src\components\checkbox\customCheckBox.vue       | Vue        |          8 |          0 |          7 |         15 |
+| e:\WXAPP\CAUC_Booking\src\components\drawer\drawer.vue                 | Vue        |         68 |          0 |          8 |         76 |
+| e:\WXAPP\CAUC_Booking\src\components\header\header.vue                 | Vue        |        112 |          0 |         11 |        123 |
+| e:\WXAPP\CAUC_Booking\src\components\header\staticHeader.vue           | Vue        |         75 |          0 |          7 |         82 |
+| e:\WXAPP\CAUC_Booking\src\components\input\customInput.vue             | Vue        |         52 |          0 |          4 |         56 |
+| e:\WXAPP\CAUC_Booking\src\components\linkButton\linkButton.vue         | Vue        |         53 |          0 |          5 |         58 |
+| e:\WXAPP\CAUC_Booking\src\components\messageBox\messageBox.vue         | Vue        |         17 |          0 |          3 |         20 |
+| e:\WXAPP\CAUC_Booking\src\components\picker\picker.vue                 | Vue        |        105 |          0 |         15 |        120 |
+| e:\WXAPP\CAUC_Booking\src\components\smallBlockList\smallBlockList.vue | Vue        |         60 |          0 |          6 |         66 |
+| e:\WXAPP\CAUC_Booking\src\components\star\star.vue                     | Vue        |         16 |          0 |          5 |         21 |
+| e:\WXAPP\CAUC_Booking\src\components\upload\uploadImgBlock.vue         | Vue        |         30 |          0 |          3 |         33 |
+| e:\WXAPP\CAUC_Booking\src\env.js                                       | JavaScript |          0 |          0 |          2 |          2 |
+| e:\WXAPP\CAUC_Booking\src\global.scss                                  | SCSS       |          7 |          0 |          3 |         10 |
+| e:\WXAPP\CAUC_Booking\src\layout\commonLayout\commonLayout.vue         | Vue        |         62 |          0 |          5 |         67 |
+| e:\WXAPP\CAUC_Booking\src\layout\indexLayout\indexLayout.vue           | Vue        |        186 |          1 |          9 |        196 |
+| e:\WXAPP\CAUC_Booking\src\layout\simpleLayout\simpleLayout.vue         | Vue        |         51 |          0 |          4 |         55 |
+| e:\WXAPP\CAUC_Booking\src\main.js                                      | JavaScript |          9 |          0 |          2 |         11 |
+| e:\WXAPP\CAUC_Booking\src\manifest.json                                | JSON       |         64 |          8 |          1 |         73 |
+| e:\WXAPP\CAUC_Booking\src\pages.json                                   | JSON       |         97 |          0 |          5 |        102 |
+| e:\WXAPP\CAUC_Booking\src\pages\guide\guide.vue                        | Vue        |         15 |          0 |          3 |         18 |
+| e:\WXAPP\CAUC_Booking\src\pages\index\index.vue                        | Vue        |        196 |          0 |         10 |        206 |
+| e:\WXAPP\CAUC_Booking\src\pages\index\start.vue                        | Vue        |          9 |          0 |          3 |         12 |
+| e:\WXAPP\CAUC_Booking\src\pages\order\order.vue                        | Vue        |        145 |          0 |          7 |        152 |
+| e:\WXAPP\CAUC_Booking\src\pages\order\order_applicant.vue              | Vue        |        553 |         19 |         33 |        605 |
+| e:\WXAPP\CAUC_Booking\src\pages\order\order_date_time.vue              | Vue        |        506 |          2 |         14 |        522 |
+| e:\WXAPP\CAUC_Booking\src\pages\order\order_status.vue                 | Vue        |        183 |          0 |          8 |        191 |
+| e:\WXAPP\CAUC_Booking\src\pages\test\test.vue                          | Vue        |         57 |          0 |          7 |         64 |
+| e:\WXAPP\CAUC_Booking\src\pages\user\user.vue                          | Vue        |         92 |          1 |          4 |         97 |
+| e:\WXAPP\CAUC_Booking\src\shime-uni.d.ts                               | TypeScript |          5 |          0 |          1 |          6 |
+| e:\WXAPP\CAUC_Booking\src\uni.scss                                     | SCSS       |         37 |         26 |         15 |         78 |
+| e:\WXAPP\CAUC_Booking\src\utils\fn\index.js                            | JavaScript |         44 |          2 |          5 |         51 |
+| e:\WXAPP\CAUC_Booking\src\utils\http\index.js                          | JavaScript |          4 |          0 |          1 |          5 |
+| e:\WXAPP\CAUC_Booking\src\utils\http\order.js                          | JavaScript |         13 |          1 |          2 |         16 |
+| Total                                                                  |            |      3,358 |        202 |        257 |      3,817 |
++------------------------------------------------------------------------+------------+------------+------------+------------+------------+

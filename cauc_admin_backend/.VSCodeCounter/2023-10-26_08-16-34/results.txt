@@ -1,0 +1,150 @@
+Date : 2023-10-26 08:16:34
+Directory : e:\cauc_museum\cauc_admin_backend
+Total : 79 files,  8775 codes, 293 comments, 1142 blanks, all 10210 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| YAML               |          1 |      6,881 |          0 |        784 |      7,665 |
+| TypeScript         |         65 |      1,466 |        218 |        290 |      1,974 |
+| JSON               |          5 |        112 |          8 |          2 |        122 |
+| Prisma             |          1 |        105 |         34 |         14 |        153 |
+| SQL                |          2 |         90 |         22 |         20 |        132 |
+| Markdown           |          1 |         51 |          2 |         21 |         74 |
+| JavaScript         |          2 |         38 |          4 |          4 |         46 |
+| JSON with Comments |          1 |         21 |          0 |          1 |         22 |
+| Properties         |          1 |         11 |          5 |          6 |         22 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                   |         79 |      8,775 |        293 |      1,142 |     10,210 |
+| . (Files)                                                                           |         10 |      7,105 |         19 |        817 |      7,941 |
+| prisma                                                                              |          4 |        237 |         61 |         44 |        342 |
+| prisma (Files)                                                                      |          2 |        147 |         39 |         24 |        210 |
+| prisma\migrations                                                                   |          2 |         90 |         22 |         20 |        132 |
+| prisma\migrations\20231016140709_y                                                  |          1 |         84 |         10 |         16 |        110 |
+| prisma\migrations\20231016141648_y                                                  |          1 |          6 |         12 |          4 |         22 |
+| src                                                                                 |         63 |      1,404 |        213 |        275 |      1,892 |
+| src (Files)                                                                         |          4 |         63 |          2 |         12 |         77 |
+| src\decorator                                                                       |          3 |         22 |          1 |          5 |         28 |
+| src\dto                                                                             |          1 |          9 |          0 |          1 |         10 |
+| src\error                                                                           |         12 |         82 |          9 |         11 |        102 |
+| src\error (Files)                                                                   |          1 |          3 |          0 |          0 |          3 |
+| src\error\admin                                                                     |          2 |          7 |          1 |          0 |          8 |
+| src\error\file                                                                      |          2 |         28 |          5 |          5 |         38 |
+| src\error\guide                                                                     |          1 |          9 |          1 |          0 |         10 |
+| src\error\order                                                                     |          2 |          8 |          1 |          0 |          9 |
+| src\error\record                                                                    |          2 |          8 |          1 |          4 |         13 |
+| src\error\verify                                                                    |          2 |         19 |          0 |          2 |         21 |
+| src\guard                                                                           |          2 |         22 |          0 |          2 |         24 |
+| src\model                                                                           |          3 |         84 |          0 |         18 |        102 |
+| src\modules                                                                         |         30 |        995 |        174 |        200 |      1,369 |
+| src\modules\auth                                                                    |          3 |        107 |         11 |         25 |        143 |
+| src\modules\date                                                                    |          3 |         41 |          1 |          6 |         48 |
+| src\modules\file-upload                                                             |          2 |         97 |         20 |         14 |        131 |
+| src\modules\guide                                                                   |          3 |         92 |          6 |         24 |        122 |
+| src\modules\order                                                                   |          3 |        259 |        111 |         41 |        411 |
+| src\modules\order-item                                                              |          3 |         69 |          6 |         15 |         90 |
+| src\modules\prisma                                                                  |          2 |         14 |          0 |          5 |         19 |
+| src\modules\record                                                                  |          3 |        104 |          5 |         26 |        135 |
+| src\modules\router                                                                  |          3 |         61 |          0 |         10 |         71 |
+| src\modules\test                                                                    |          2 |         15 |          0 |          6 |         21 |
+| src\modules\user                                                                    |          3 |        136 |         14 |         28 |        178 |
+| src\pipe                                                                            |          2 |         16 |          0 |          2 |         18 |
+| src\strategy                                                                        |          1 |         19 |          0 |          4 |         23 |
+| src\utils                                                                           |          4 |         30 |         17 |          4 |         51 |
+| src\utils\config                                                                    |          1 |          6 |          0 |          3 |          9 |
+| src\utils\enum                                                                      |          3 |         24 |         17 |          1 |         42 |
+| src\validator                                                                       |          1 |         62 |         10 |         16 |         88 |
+| test                                                                                |          2 |         29 |          0 |          6 |         35 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                            | language           | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| e:\cauc_museum\cauc_admin_backend\.env                                              | Properties         |         11 |          5 |          6 |         22 |
+| e:\cauc_museum\cauc_admin_backend\.eslintrc.js                                      | JavaScript         |         25 |          0 |          1 |         26 |
+| e:\cauc_museum\cauc_admin_backend\.prettierrc                                       | JSON               |          4 |          0 |          0 |          4 |
+| e:\cauc_museum\cauc_admin_backend\README.md                                         | Markdown           |         51 |          2 |         21 |         74 |
+| e:\cauc_museum\cauc_admin_backend\demo1.js                                          | JavaScript         |         13 |          4 |          3 |         20 |
+| e:\cauc_museum\cauc_admin_backend\nest-cli.json                                     | JSON               |          8 |          0 |          1 |          9 |
+| e:\cauc_museum\cauc_admin_backend\package.json                                      | JSON               |         88 |          6 |          0 |         94 |
+| e:\cauc_museum\cauc_admin_backend\pnpm-lock.yaml                                    | YAML               |      6,881 |          0 |        784 |      7,665 |
+| e:\cauc_museum\cauc_admin_backend\prisma\migrations\20231016140709_y\migration.sql  | SQL                |         84 |         10 |         16 |        110 |
+| e:\cauc_museum\cauc_admin_backend\prisma\migrations\20231016141648_y\migration.sql  | SQL                |          6 |         12 |          4 |         22 |
+| e:\cauc_museum\cauc_admin_backend\prisma\schema.prisma                              | Prisma             |        105 |         34 |         14 |        153 |
+| e:\cauc_museum\cauc_admin_backend\prisma\sd.ts                                      | TypeScript         |         42 |          5 |         10 |         57 |
+| e:\cauc_museum\cauc_admin_backend\src\app.controller.ts                             | TypeScript         |          6 |          0 |          2 |          8 |
+| e:\cauc_museum\cauc_admin_backend\src\app.module.ts                                 | TypeScript         |         39 |          0 |          4 |         43 |
+| e:\cauc_museum\cauc_admin_backend\src\app.service.ts                                | TypeScript         |          7 |          0 |          2 |          9 |
+| e:\cauc_museum\cauc_admin_backend\src\decorator\admin.decorator.ts                  | TypeScript         |          6 |          0 |          2 |          8 |
+| e:\cauc_museum\cauc_admin_backend\src\decorator\auth.decorator.ts                   | TypeScript         |          9 |          1 |          2 |         12 |
+| e:\cauc_museum\cauc_admin_backend\src\decorator\user.decorator.ts                   | TypeScript         |          7 |          0 |          1 |          8 |
+| e:\cauc_museum\cauc_admin_backend\src\dto\login.ts                                  | TypeScript         |          9 |          0 |          1 |         10 |
+| e:\cauc_museum\cauc_admin_backend\src\error\admin\admin.error.ts                    | TypeScript         |          6 |          1 |          0 |          7 |
+| e:\cauc_museum\cauc_admin_backend\src\error\admin\index.ts                          | TypeScript         |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin_backend\src\error\file\file.error.ts                      | TypeScript         |         27 |          5 |          5 |         37 |
+| e:\cauc_museum\cauc_admin_backend\src\error\file\index.ts                           | TypeScript         |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin_backend\src\error\guide\index.ts                          | TypeScript         |          9 |          1 |          0 |         10 |
+| e:\cauc_museum\cauc_admin_backend\src\error\index.ts                                | TypeScript         |          3 |          0 |          0 |          3 |
+| e:\cauc_museum\cauc_admin_backend\src\error\order\index.ts                          | TypeScript         |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin_backend\src\error\order\order.ts                          | TypeScript         |          7 |          1 |          0 |          8 |
+| e:\cauc_museum\cauc_admin_backend\src\error\record\index.ts                         | TypeScript         |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin_backend\src\error\record\record.error.ts                  | TypeScript         |          7 |          1 |          4 |         12 |
+| e:\cauc_museum\cauc_admin_backend\src\error\verify\index.ts                         | TypeScript         |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_admin_backend\src\error\verify\verify.error.ts                  | TypeScript         |         18 |          0 |          2 |         20 |
+| e:\cauc_museum\cauc_admin_backend\src\guard\admin.guard.ts                          | TypeScript         |         11 |          0 |          1 |         12 |
+| e:\cauc_museum\cauc_admin_backend\src\guard\super.guard.ts                          | TypeScript         |         11 |          0 |          1 |         12 |
+| e:\cauc_museum\cauc_admin_backend\src\main.ts                                       | TypeScript         |         11 |          2 |          4 |         17 |
+| e:\cauc_museum\cauc_admin_backend\src\model\admin.ts                                | TypeScript         |         40 |          0 |          9 |         49 |
+| e:\cauc_museum\cauc_admin_backend\src\model\guide.ts                                | TypeScript         |         32 |          0 |          9 |         41 |
+| e:\cauc_museum\cauc_admin_backend\src\model\order.ts                                | TypeScript         |         12 |          0 |          0 |         12 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\auth\auth.controller.ts               | TypeScript         |         47 |          6 |         10 |         63 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\auth\auth.module.ts                   | TypeScript         |         24 |          0 |          2 |         26 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\auth\auth.service.ts                  | TypeScript         |         36 |          5 |         13 |         54 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\date\date.controller.ts               | TypeScript         |         30 |          1 |          2 |         33 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\date\date.module.ts                   | TypeScript         |          8 |          0 |          2 |         10 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\date\date.service.ts                  | TypeScript         |          3 |          0 |          2 |          5 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\file-upload\file-upload.controller.ts | TypeScript         |         89 |         20 |         12 |        121 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\file-upload\file-upload.module.ts     | TypeScript         |          8 |          0 |          2 |         10 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\guide\guide.controller.ts             | TypeScript         |         30 |          1 |          9 |         40 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\guide\guide.module.ts                 | TypeScript         |          9 |          0 |          2 |         11 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\guide\guide.service.ts                | TypeScript         |         53 |          5 |         13 |         71 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\order-item\order-item.controller.ts   | TypeScript         |         25 |          4 |          7 |         36 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\order-item\order-item.module.ts       | TypeScript         |          8 |          0 |          2 |         10 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\order-item\order-item.service.ts      | TypeScript         |         36 |          2 |          6 |         44 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\order\order.controller.ts             | TypeScript         |         90 |         12 |         14 |        116 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\order\order.module.ts                 | TypeScript         |          8 |          0 |          2 |         10 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\order\order.service.ts                | TypeScript         |        161 |         99 |         25 |        285 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\prisma\prisma.module.ts               | TypeScript         |          8 |          0 |          3 |         11 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\prisma\prisma.service.ts              | TypeScript         |          6 |          0 |          2 |          8 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\record\record.controller.ts           | TypeScript         |         35 |          1 |         11 |         47 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\record\record.module.ts               | TypeScript         |          8 |          0 |          2 |         10 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\record\record.service.ts              | TypeScript         |         61 |          4 |         13 |         78 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\router\router.controller.ts           | TypeScript         |         50 |          0 |          6 |         56 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\router\router.module.ts               | TypeScript         |          8 |          0 |          2 |         10 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\router\router.service.ts              | TypeScript         |          3 |          0 |          2 |          5 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\test\test.controller.ts               | TypeScript         |          9 |          0 |          4 |         13 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\test\test.module.ts                   | TypeScript         |          6 |          0 |          2 |          8 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\user\user.controller.ts               | TypeScript         |         43 |          1 |         11 |         55 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\user\user.module.ts                   | TypeScript         |          8 |          0 |          2 |         10 |
+| e:\cauc_museum\cauc_admin_backend\src\modules\user\user.service.ts                  | TypeScript         |         85 |         13 |         15 |        113 |
+| e:\cauc_museum\cauc_admin_backend\src\pipe\number-arr-parse.pipe.ts                 | TypeScript         |          8 |          0 |          1 |          9 |
+| e:\cauc_museum\cauc_admin_backend\src\pipe\string-arr-parse.pipe.ts                 | TypeScript         |          8 |          0 |          1 |          9 |
+| e:\cauc_museum\cauc_admin_backend\src\strategy\jwt.strategy.ts                      | TypeScript         |         19 |          0 |          4 |         23 |
+| e:\cauc_museum\cauc_admin_backend\src\utils\config\index.ts                         | TypeScript         |          6 |          0 |          3 |          9 |
+| e:\cauc_museum\cauc_admin_backend\src\utils\enum\http.ts                            | TypeScript         |         12 |         10 |          0 |         22 |
+| e:\cauc_museum\cauc_admin_backend\src\utils\enum\index.ts                           | TypeScript         |          2 |          0 |          0 |          2 |
+| e:\cauc_museum\cauc_admin_backend\src\utils\enum\order.ts                           | TypeScript         |         10 |          7 |          1 |         18 |
+| e:\cauc_museum\cauc_admin_backend\src\validator\admin.validator.ts                  | TypeScript         |         62 |         10 |         16 |         88 |
+| e:\cauc_museum\cauc_admin_backend\test\app.e2e-spec.ts                              | TypeScript         |         20 |          0 |          5 |         25 |
+| e:\cauc_museum\cauc_admin_backend\test\jest-e2e.json                                | JSON               |          9 |          0 |          1 |         10 |
+| e:\cauc_museum\cauc_admin_backend\tsconfig.build.json                               | JSON               |          3 |          2 |          0 |          5 |
+| e:\cauc_museum\cauc_admin_backend\tsconfig.json                                     | JSON with Comments |         21 |          0 |          1 |         22 |
+| Total                                                                               |                    |      8,775 |        293 |      1,142 |     10,210 |
++-------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

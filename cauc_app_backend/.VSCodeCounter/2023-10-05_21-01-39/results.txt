@@ -1,0 +1,107 @@
+Date : 2023-10-05 21:01:39
+Directory : e:\cauc_museum\cauc_app_backend\src
+Total : 53 files,  967 codes, 114 comments, 185 blanks, all 1266 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| TypeScript |         53 |        967 |        114 |        185 |      1,266 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                      | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                         |         53 |        967 |        114 |        185 |      1,266 |
+| . (Files)                                                                 |          4 |         60 |          1 |          9 |         70 |
+| auth                                                                      |          3 |        108 |          8 |         15 |        131 |
+| date                                                                      |          3 |         41 |          1 |          6 |         48 |
+| decorator                                                                 |          4 |         50 |          3 |          5 |         58 |
+| dto                                                                       |          1 |          4 |          2 |          0 |          6 |
+| error                                                                     |          8 |         58 |          7 |         14 |         79 |
+| error (Files)                                                             |          1 |          4 |          0 |          0 |          4 |
+| error\file                                                                |          2 |         28 |          5 |          5 |         38 |
+| error\order                                                               |          1 |          7 |          1 |          4 |         12 |
+| error\record                                                              |          2 |          8 |          1 |          4 |         13 |
+| error\verify                                                              |          2 |         11 |          0 |          1 |         12 |
+| file-upload                                                               |          3 |        135 |         55 |         39 |        229 |
+| guard                                                                     |          1 |         11 |          0 |          1 |         12 |
+| http                                                                      |          2 |         50 |          6 |         10 |         66 |
+| model                                                                     |          1 |         13 |          0 |          0 |         13 |
+| order                                                                     |          3 |        161 |         10 |         16 |        187 |
+| pipe                                                                      |          1 |          8 |          0 |          1 |          9 |
+| prisma                                                                    |          2 |         14 |          0 |          5 |         19 |
+| record                                                                    |          3 |        142 |          7 |         33 |        182 |
+| strategy                                                                  |          1 |         14 |          1 |          4 |         19 |
+| test                                                                      |          2 |         11 |          0 |          6 |         17 |
+| typings                                                                   |          1 |          4 |          0 |          0 |          4 |
+| user                                                                      |          3 |         33 |          2 |         10 |         45 |
+| utils                                                                     |          7 |         50 |         11 |         11 |         72 |
+| utils (Files)                                                             |          1 |          1 |          0 |          0 |          1 |
+| utils\config                                                              |          1 |          6 |          0 |          3 |          9 |
+| utils\enum                                                                |          3 |         18 |          7 |          2 |         27 |
+| utils\fn                                                                  |          1 |         12 |          4 |          2 |         18 |
+| utils\store                                                               |          1 |         13 |          0 |          4 |         17 |
+| utils\store\user                                                          |          1 |         13 |          0 |          4 |         17 |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                  | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| e:\cauc_museum\cauc_app_backend\src\app.controller.ts                     | TypeScript |         10 |          0 |          3 |         13 |
+| e:\cauc_museum\cauc_app_backend\src\app.module.ts                         | TypeScript |         34 |          0 |          2 |         36 |
+| e:\cauc_museum\cauc_app_backend\src\app.service.ts                        | TypeScript |          7 |          0 |          2 |          9 |
+| e:\cauc_museum\cauc_app_backend\src\auth\auth.controller.ts               | TypeScript |         35 |          5 |          5 |         45 |
+| e:\cauc_museum\cauc_app_backend\src\auth\auth.module.ts                   | TypeScript |         25 |          0 |          2 |         27 |
+| e:\cauc_museum\cauc_app_backend\src\auth\auth.service.ts                  | TypeScript |         48 |          3 |          8 |         59 |
+| e:\cauc_museum\cauc_app_backend\src\date\date.controller.ts               | TypeScript |         30 |          1 |          2 |         33 |
+| e:\cauc_museum\cauc_app_backend\src\date\date.module.ts                   | TypeScript |          8 |          0 |          2 |         10 |
+| e:\cauc_museum\cauc_app_backend\src\date\date.service.ts                  | TypeScript |          3 |          0 |          2 |          5 |
+| e:\cauc_museum\cauc_app_backend\src\decorator\auth.decorator.ts           | TypeScript |          5 |          0 |          1 |          6 |
+| e:\cauc_museum\cauc_app_backend\src\decorator\imgUpload.decorator.ts      | TypeScript |         22 |          2 |          2 |         26 |
+| e:\cauc_museum\cauc_app_backend\src\decorator\index.ts                    | TypeScript |          3 |          0 |          1 |          4 |
+| e:\cauc_museum\cauc_app_backend\src\decorator\pdfUpload.decorator.ts      | TypeScript |         20 |          1 |          1 |         22 |
+| e:\cauc_museum\cauc_app_backend\src\dto\login.ts                          | TypeScript |          4 |          2 |          0 |          6 |
+| e:\cauc_museum\cauc_app_backend\src\error\file\file.error.ts              | TypeScript |         27 |          5 |          5 |         37 |
+| e:\cauc_museum\cauc_app_backend\src\error\file\index.ts                   | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_app_backend\src\error\index.ts                        | TypeScript |          4 |          0 |          0 |          4 |
+| e:\cauc_museum\cauc_app_backend\src\error\order\index.ts                  | TypeScript |          7 |          1 |          4 |         12 |
+| e:\cauc_museum\cauc_app_backend\src\error\record\index.ts                 | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_app_backend\src\error\record\record.error.ts          | TypeScript |          7 |          1 |          4 |         12 |
+| e:\cauc_museum\cauc_app_backend\src\error\verify\index.ts                 | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_app_backend\src\error\verify\verify.error.ts          | TypeScript |         10 |          0 |          1 |         11 |
+| e:\cauc_museum\cauc_app_backend\src\file-upload\file-upload.controller.ts | TypeScript |         30 |          1 |          8 |         39 |
+| e:\cauc_museum\cauc_app_backend\src\file-upload\file-upload.module.ts     | TypeScript |         10 |          0 |          2 |         12 |
+| e:\cauc_museum\cauc_app_backend\src\file-upload\file-upload.service.ts    | TypeScript |         95 |         54 |         29 |        178 |
+| e:\cauc_museum\cauc_app_backend\src\guard\admin.guard.ts                  | TypeScript |         11 |          0 |          1 |         12 |
+| e:\cauc_museum\cauc_app_backend\src\http\http.module.ts                   | TypeScript |          6 |          0 |          2 |          8 |
+| e:\cauc_museum\cauc_app_backend\src\http\http.service.ts                  | TypeScript |         44 |          6 |          8 |         58 |
+| e:\cauc_museum\cauc_app_backend\src\main.ts                               | TypeScript |          9 |          1 |          2 |         12 |
+| e:\cauc_museum\cauc_app_backend\src\model\order.ts                        | TypeScript |         13 |          0 |          0 |         13 |
+| e:\cauc_museum\cauc_app_backend\src\order\order.controller.ts             | TypeScript |         24 |          2 |          5 |         31 |
+| e:\cauc_museum\cauc_app_backend\src\order\order.module.ts                 | TypeScript |          9 |          0 |          2 |         11 |
+| e:\cauc_museum\cauc_app_backend\src\order\order.service.ts                | TypeScript |        128 |          8 |          9 |        145 |
+| e:\cauc_museum\cauc_app_backend\src\pipe\arr-parse.pipe.ts                | TypeScript |          8 |          0 |          1 |          9 |
+| e:\cauc_museum\cauc_app_backend\src\prisma\prisma.module.ts               | TypeScript |          8 |          0 |          3 |         11 |
+| e:\cauc_museum\cauc_app_backend\src\prisma\prisma.service.ts              | TypeScript |          6 |          0 |          2 |          8 |
+| e:\cauc_museum\cauc_app_backend\src\record\record.controller.ts           | TypeScript |         32 |          1 |          9 |         42 |
+| e:\cauc_museum\cauc_app_backend\src\record\record.module.ts               | TypeScript |          8 |          0 |          2 |         10 |
+| e:\cauc_museum\cauc_app_backend\src\record\record.service.ts              | TypeScript |        102 |          6 |         22 |        130 |
+| e:\cauc_museum\cauc_app_backend\src\strategy\jwt.strategy.ts              | TypeScript |         14 |          1 |          4 |         19 |
+| e:\cauc_museum\cauc_app_backend\src\test\test.controller.ts               | TypeScript |          5 |          0 |          4 |          9 |
+| e:\cauc_museum\cauc_app_backend\src\test\test.module.ts                   | TypeScript |          6 |          0 |          2 |          8 |
+| e:\cauc_museum\cauc_app_backend\src\typings\login.d.ts                    | TypeScript |          4 |          0 |          0 |          4 |
+| e:\cauc_museum\cauc_app_backend\src\user\user.controller.ts               | TypeScript |          4 |          0 |          3 |          7 |
+| e:\cauc_museum\cauc_app_backend\src\user\user.module.ts                   | TypeScript |          8 |          0 |          2 |         10 |
+| e:\cauc_museum\cauc_app_backend\src\user\user.service.ts                  | TypeScript |         21 |          2 |          5 |         28 |
+| e:\cauc_museum\cauc_app_backend\src\utils\config\index.ts                 | TypeScript |          6 |          0 |          3 |          9 |
+| e:\cauc_museum\cauc_app_backend\src\utils\enum\http.ts                    | TypeScript |          9 |          7 |          0 |         16 |
+| e:\cauc_museum\cauc_app_backend\src\utils\enum\index.ts                   | TypeScript |          2 |          0 |          0 |          2 |
+| e:\cauc_museum\cauc_app_backend\src\utils\enum\order.ts                   | TypeScript |          7 |          0 |          2 |          9 |
+| e:\cauc_museum\cauc_app_backend\src\utils\fn\index.ts                     | TypeScript |         12 |          4 |          2 |         18 |
+| e:\cauc_museum\cauc_app_backend\src\utils\index.ts                        | TypeScript |          1 |          0 |          0 |          1 |
+| e:\cauc_museum\cauc_app_backend\src\utils\store\user\index.ts             | TypeScript |         13 |          0 |          4 |         17 |
+| Total                                                                     |            |        967 |        114 |        185 |      1,266 |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+

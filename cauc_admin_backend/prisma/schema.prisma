@@ -1,0 +1,168 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------   A P P   ----------------------------------
+
+model User {
+  id        Int      @id @default(autoincrement())
+  openid    String   @unique
+  // 用户名 随机生成 16位字符串
+  nickname  String?  @default("微信用户")
+  avatar    String?  @default("https://cauc-static-1300131488.cos.ap-beijing.myqcloud.com/boy.png")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  status    Int      @default(0) //0 启用 1 封禁
+
+  // 建立 User 与 Share 的关联关系
+  orders     Order[]     @relation("order_user")
+  // 建立 User 与 OrderItem 的关联关系
+  orderItems OrderItem[] @relation("order_item_user")
+}
+
+// 每一个
+model Record {
+  id       Int      @id @default(autoincrement())
+  createAt DateTime @default(now())
+  updateAt DateTime @updatedAt
+
+  // date 和 t_flag联合唯一
+  date            String  @unique
+  // 上午 当前使用教师数
+  t_size_am       Int     @default(0)
+  // 下午 当前使用教师数
+  t_size_pm       Int     @default(0)
+  order_size_list String  @default("0,0,0,0,0,0,0,0,0,0,0,0")
+  order_book_list String  @default("0,0,0,0,0,0,0,0,0,0,0,0")
+  full            Boolean @default(false)
+  close           Boolean @default(false)
+  orders          Order[] @relation("order_record")
+}
+
+// {
+//   permission_name: 'cqy',
+//   permission_tel: '13333333333',
+//   organize: '交通科学与工程学院',
+//   org_type: 0,
+//   size: '122',
+//   time_list: [ '2023-10-26 08:30', '2023-10-26 09:00', '2023-10-26 09:30' ],
+//   time_idx_list: [ 0, 1, 2 ],
+//   need: true,
+//   sub_pm_type: 'IMG',
+//   url: 'https://cauc-img-2-1300131488.cos.ap-beijing.myqcloud.com/55fc3ccf56fbeccc3012ffa1842ccc3c.jpg',
+//   openid: 'owUCH62NgdweQHBNYWa1ZNA3gtuQ'
+// }
+
+model Order {
+  id             Int         @id @default(autoincrement())
+  createAt       DateTime    @default(now())
+  updateAt       DateTime    @updatedAt
+  org_type       Int
+  organize       String
+  pm_name        String
+  pm_tel         Decimal
+  // 2023-10-01
+  order_date     String
+  need           Boolean     @default(false)
+  // 0 待处理 1 已处理
+  operate_status Int     @default(0)
+  // 0 未完成 1 完成
+  order_status   Int     @default(0)
+  // 0 无 1 失约 2 迟到 3 提前取消 4 拒绝
+  error_status   Int         @default(0)
+  sub_pm_type    String
+  verify_url     String
+  // 外键 预订用户
+  openid         String
+  user           User        @relation("order_user", fields: [openid], references: [openid])
+  // 外键 天记录
+  recordId       Int
+  Record         Record      @relation("order_record", fields: [recordId], references: [id])
+  // 关联 OrderItem
+  orderItems     OrderItem[] @relation("order_item_order")
+}
+
+model OrderItem {
+  id             Int      @id @default(autoincrement())
+  createAt       DateTime @default(now())
+  updateAt       DateTime @updatedAt
+  order_date     String
+  order_time     DateTime
+  order_time_idx Int
+  size           Int
+  // 0 未完成 1 完成
+  status         Int      @default(0)
+  // 外键 预订用户
+  openid         String
+  user           User     @relation("order_item_user", fields: [openid], references: [openid])
+  // 外键 预订订单
+  orderId        Int
+  order          Order    @relation("order_item_order", fields: [orderId], references: [id])
+  // 外键 引导员
+  guide_id       Int?
+  guide          Guide?   @relation(fields: [guide_id], references: [id])
+}
+
+// ------------------------------ A D M I N -------------------------------------
+
+model Admin {
+  id             Int        @id @default(autoincrement())
+  username       String     @unique
+  password       String
+  nickname       String     @default("普通管理员")
+  tel            String     @unique
+  mail           String     @unique
+  sex            Int        @default(0) //0 男 1 女
+  createdAt      DateTime   @default(now())
+  updatedAt      DateTime   @updatedAt
+  avatar         String     @default("https://cauc-static-1300131488.cos.ap-beijing.myqcloud.com/boy.png")
+  role           String     @default("user")
+  status         Int        @default(0) //0 正常 1 禁用
+  // 外键 父级管理员
+  f_admin_id     Int?
+  f_admin        Admin?     @relation("admin_admin", fields: [f_admin_id], references: [id])
+  son_admin_list Admin[]    @relation("admin_admin")
+  AdminLog       AdminLog[]
+}
+
+//ACTION
+// 0 登陆 1 新增管理员 2 修改管理员 3 删除管理员 4 新增用户 5 修改用户 6 删除用户 7 新增订单 8 修改订单信息
+model AdminLog {
+  id          Int      @id @default(autoincrement())
+  createAt    DateTime @default(now())
+  updateAt    DateTime @updatedAt
+  adminId     Int
+  admin       Admin    @relation(fields: [adminId], references: [id])
+  action      Int
+  action_name String
+  remark      String?  @default("")
+}
+
+// 引导员表
+model Guide {
+  id          Int         @id @default(autoincrement())
+  createAt    DateTime    @default(now())
+  updateAt    DateTime    @updatedAt
+  staff_id    String      @unique
+  name        String
+  group       String?
+  tel         String
+  guide_time  Int         @default(0)
+  status      Int         @default(0) //0 正常 1 删除
+  order_items OrderItem[]
+}
+
+// 公告表
+model Notice {
+  id       Int      @id @default(autoincrement())
+  createAt DateTime @default(now())
+  updateAt DateTime @updatedAt
+  title    String
+  delay    Int      @default(5000)
+  type     String
+}

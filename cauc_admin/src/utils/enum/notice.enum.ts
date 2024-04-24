@@ -1,0 +1,1 @@
+export const NoticeTypeList:NoticeType[] = ['info', 'success', 'warning', 'error']
